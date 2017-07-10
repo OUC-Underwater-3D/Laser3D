@@ -2,6 +2,7 @@ im = imread('bc1.bmp');
 
 imtool(im); % 方便选取阈值使用
 
+bw = zeros(486, 648);
 bw(im(:,:,1)< 60 & im(:,:,2)>70 & im(:,:,3) < 60) = 1;
 figure; imshow(im);
 figure; imshow(bw);
