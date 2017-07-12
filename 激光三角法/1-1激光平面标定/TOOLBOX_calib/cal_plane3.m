@@ -5,44 +5,51 @@ clear all;
 close all;
 load Calib_Results;
 
-Loc_laser = [0 350 0]';
-inter = [928.61746 0 345.16898; 0 930.08193 246.64099; 0 0 1];
-point_num = 8;
+% Loc_laser = [0 350 0]';
+inter = [2757.85389 0 1252.18673; 0 2764.69304 962.78821; 0 0 1];
+point_num = 10;
 p = zeros(3,point_num);
 Loc = [];
 
-p(:,1) = [318;224;1];
+p(:,1) = [1133;515;1];
 temp = laser(p(:,1), inter, Rc_1, Tc_1);
 Loc = [Loc temp];
 
-p(:,2) = [289;212;1];
-temp = laser(p(:,2), inter, Rc_2, Tc_2);
+p(:,2) = [1546;521;1];
+temp = laser(p(:,2), inter, Rc_1, Tc_1);
 Loc = [Loc temp];
 
-p(:,3) = [423;195;1];
-temp = laser(p(:,3), inter, Rc_3, Tc_3);
+p(:,3) = [716;824;1];
+temp = laser(p(:,3), inter, Rc_2, Tc_2);
 Loc = [Loc temp];
 
-p(:,4) = [170;294;1];
-temp = laser(p(:,4), inter, Rc_4, Tc_4);
+p(:,4) = [1529;935;1];
+temp = laser(p(:,4), inter, Rc_2, Tc_2);
 Loc = [Loc temp];
 
-p(:,5) = [237;293;1];
-temp = laser(p(:,5), inter, Rc_5, Tc_5);
+p(:,5) = [794;1025;1];
+temp = laser(p(:,5), inter, Rc_3, Tc_3);
 Loc = [Loc temp];
 
-p(:,6) = [476;258;1];
-temp = laser(p(:,6), inter, Rc_6, Tc_6);
+p(:,6) = [1190;1010;1];
+temp = laser(p(:,6), inter, Rc_3, Tc_3);
 Loc = [Loc temp];
 
-p(:,7) = [426;272;1];
-temp = laser(p(:,7), inter, Rc_7, Tc_7);
+p(:,7) = [1013;704;1];
+temp = laser(p(:,7), inter, Rc_4, Tc_4);
 Loc = [Loc temp];
 
-p(:,8) = [350;206;1];
-temp = laser(p(:,8), inter, Rc_9, Tc_9);
+p(:,8) = [1442;755;1];
+temp = laser(p(:,8), inter, Rc_4, Tc_4);
 Loc = [Loc temp];
 
+p(:,9) = [521;668;1];
+temp = laser(p(:,9), inter, Rc_5, Tc_5);
+Loc = [Loc temp];
+
+p(:,10) = [1283;932;1];
+temp = laser(p(:,10), inter, Rc_5, Tc_5);
+Loc = [Loc temp];
 
 % X = [Loc_laser(1) Loc(1,:)];
 % Y = [Loc_laser(2) Loc(2,:)];
@@ -54,8 +61,8 @@ Z = Loc(3,:);
 
 xyz = [ones(point_num,1) X' Y'];
 para = regress(Z', xyz)
-xfit = min(X):0.02:max(X);  
-yfit = min(Y):0.02:max(Y);
+xfit = min(X):1:max(X);  
+yfit = min(Y):1:max(Y);
 
 [XFIT,YFIT]= meshgrid(xfit,yfit); 
 ZFIT = para(1) + para(2) * XFIT + para(3) * YFIT;
@@ -64,7 +71,7 @@ figure, plot3(X,Y,Z,'o');
 hold on;
 axis equal;
 mesh(XFIT,YFIT,ZFIT);
-plot3(0,0,0,'.r','markersize',16)
+% plot3(0,0,0,'.r','markersize',16)
 xlabel('X')
 ylabel('Y')
 zlabel('Z')

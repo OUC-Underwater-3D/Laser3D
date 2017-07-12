@@ -28,16 +28,16 @@ function laserH_dictionary = getLaserH_dictionary(img)
 % % pc = -1.7592;
 % % pd = -1;
 disp('--1--camera calibration info');
-f_1 = 928.61746;
-f_2 = 930.08193;
+f_1 = 2757.85389;
+f_2 = 2764.69304;
 alpha_c = 0;
-cc_1 = 345.16898;
-cc_2 = 246.64099;
+cc_1 = 1252.18673;
+cc_2 = 962.78821;
 
 disp('--2--laser plane calibration info'); %pa+ pb*x + pc*y - z = 0
-pa = 0.4662;
-pb = -0.0440;
-pc = -1.6342;
+pa = 336.3568;
+pb = 0.0144;
+pc = -1.0398;
 pd = -1;
 %% º∆À„
 disp('--3--compute laser height');

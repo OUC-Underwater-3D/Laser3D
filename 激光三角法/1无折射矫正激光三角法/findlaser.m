@@ -6,6 +6,7 @@ function mask = findlaser(img, model)
 % %% 提取亮度
 % v = img_hsv(:,:,3);
 
+
 %% 寻找每行每列的最大值
 [h, w] = size(img);
 maxImg = zeros(size(img));
