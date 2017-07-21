@@ -5,16 +5,22 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaserScan", "LaserScan\Lase
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|Win32.Build.0 = Debug|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|x64.ActiveCfg = Debug|x64
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Debug|x64.Build.0 = Debug|x64
+		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Release|Win32.ActiveCfg = Release|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Release|Win32.Build.0 = Release|Win32
 		{E509FD8C-45D1-4B00-8ADA-4CE97F6ABD74}.Release|x64.ActiveCfg = Release|x64

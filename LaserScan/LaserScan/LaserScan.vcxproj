@@ -149,7 +149,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ImageCapture.cpp" />
+    <ClCompile Include="LaserFinder.cpp" />
     <ClCompile Include="LaserScan.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageCapture.h" />
+    <ClInclude Include="LaserFinder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
