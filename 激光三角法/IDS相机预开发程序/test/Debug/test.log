@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/1/18 13:27:37。
+     1>项目“E:\三维成像-智能控制\IDS相机\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\test.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\program files\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\三维成像-智能控制\IDS相机\test\Debug\test.exe" /INCREMENTAL /NOLOGO uEye_api.lib opencv_world300d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\三维成像-智能控制\IDS相机\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\三维成像-智能控制\IDS相机\test\Debug\test.lib" /MACHINE:X86 Debug\ColorCamera.obj
+         Debug\stdafx.obj
+         Debug\test.obj
+         test.vcxproj -> E:\三维成像-智能控制\IDS相机\test\Debug\test.exe
+     1>已完成生成项目“E:\三维成像-智能控制\IDS相机\test\test\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.77
