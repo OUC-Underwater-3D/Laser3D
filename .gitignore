@@ -22,3 +22,11 @@ LaserScan/LaserScan.v11.suo
 LaserScan/LaserScan.sdf
 LaserScan/LaserScan.opensdf
 LaserScan/LaserMask.bmp
+LaserScan/.vs/LaserScan/v15/.suo
+*.db
+*.ipch
+*.obj
+*.tlog
+*.idb
+*.pdb
+*.tmp

@@ -13,17 +13,18 @@ int main()
 	//testFile.close();
 
 
-    Mat im = imread("../w1_rect.BMP");
-    imshow("test", im);
-    waitKey(0);
+	Mat im = imread("../w1_rect.bmp");
+	namedWindow("test", 0);
+	imshow("test", im);
+	waitKey(0);
+	cvtColor(im, im, COLOR_BGR2GRAY);//设置为单通道图
 
 	LaserFinder laser;
 	Mat laserMask = laser.FindLaserMask(im);
-
+	namedWindow("LaserMask", 0);
 	imshow("LaserMask", laserMask);
 	waitKey(0);
-
 	imwrite("../LaserMask.bmp", laserMask);
 
-    return 0;
+	return 0;
 }

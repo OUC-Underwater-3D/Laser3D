@@ -14,6 +14,7 @@ public:
 
 protected:
 private:
+	const static uchar thresh = 30;
 };
 
 #endif
