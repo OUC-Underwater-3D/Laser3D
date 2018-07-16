@@ -1,0 +1,286 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_NEUTRAL
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 222, 54
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About uEyeSimpleTrigger"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK2,152,33,64,14,WS_GROUP
+    LTEXT           "Copyright ?2004 - ",IDC_STATIC_COPYRIGHT,7,23,120,8
+    LTEXT           "2017",IDC_STATIC,69,23,26,8
+    LTEXT           "IDS Imaging Development Systems GmbH",IDC_STATIC_ABOUT_COMPANY,7,36,137,8
+    LTEXT           "4.82.0.0",IDC_STATIC_ABOUT_APPNAME,7,9,120,8
+    CONTROL         135,IDC_STATIC,"Static",SS_NOPREFIX | 0x19,7,62,19,2048
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_UEYESIMPLETRIGGER_DIALOG DIALOGEX 0, 0, 593, 483
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "uEyeSimpleTrigger"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_DISPLAY,"Static",SS_BLACKFRAME | SS_SUNKEN,7,7,356,277
+    PUSHBUTTON      "&打开相机",IDC_BUTTON_START,378,7,208,16
+    PUSHBUTTON      "关闭相机",IDC_BUTTON_STOP,378,32,208,16
+    CONTROL         "触发关闭",IDC_RADIO_OFF,"Button",BS_AUTORADIOBUTTON | WS_GROUP,381,86,78,10
+    CONTROL         "软件触发",IDC_RADIO_SOFTWARE,"Button",BS_AUTORADIOBUTTON,381,104,78,10
+    CONTROL         "下降沿触发",IDC_RADIO_HI_LO,"Button",BS_AUTORADIOBUTTON,381,122,83,10
+    CONTROL         "上升沿触发",IDC_RADIO_LO_HI,"Button",BS_AUTORADIOBUTTON,381,140,82,10
+    LTEXT           "帧数计数",IDC_STATIC_FRAME_EVENTS,383,166,44,8
+    EDITTEXT        IDC_EDIT_FRAME_EVENTS,432,164,29,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TRIGGER_EVENTS,432,182,29,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "计数清零",IDC_BUTTON_RESET_COUNTERS,378,213,208,16
+    PUSHBUTTON      "&加载参数",IDC_BUTTON_LOAD_PARAMETER,378,235,208,16
+    PUSHBUTTON      "&退出",IDC_BUTTON_EXIT,378,262,208,16
+    PUSHBUTTON      "单张拍摄",IDC_BUTTON_SingleShot,378,55,208,18
+    GROUPBOX        "设置",IDC_STATIC_GROUP1,447,322,103,95
+    CONTROL         "",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,454,335,89,15,WS_EX_CLIENTEDGE
+    LTEXT           "本地端口:",IDC_STATIC,452,362,59,10
+    EDITTEXT        IDC_EDIT_SERVERPORT,498,360,40,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "连接网络",IDC_BUTTON_CONNECT,459,383,71,23
+    DEFPUSHBUTTON   "发送",IDC_BUTTON_SEND,311,457,49,18
+    LTEXT           "未连接",IDC_STATIC_CONNECT,91,465,212,8
+    PUSHBUTTON      "清空",IDC_BUTTON_EMPTYRECV,307,287,54,18
+    EDITTEXT        IDC_EDIT_RECV,7,307,357,73,ES_MULTILINE | WS_VSCROLL
+    PUSHBUTTON      "清空",IDC_BUTTON_EMPTYSEND,307,383,54,18
+    EDITTEXT        IDC_EDIT_SEND,7,403,357,53,ES_MULTILINE | ES_AUTOVSCROLL | ES_NOHIDESEL | WS_VSCROLL
+    LTEXT           "触发计数",IDC_STATIC_TRIGGER_EVENTS,382,184,46,8
+    LTEXT           "发送窗口",IDC_STATIC_TRIGGER_EVENTS3,11,388,72,8
+    LTEXT           "接收窗口",IDC_STATIC_TRIGGER_EVENTS4,11,295,68,8
+    LTEXT           "连接状态:",IDC_STATIC_TRIGGER_EVENTS2,10,465,78,8
+    PUSHBUTTON      "设置保存路径",IDC_BUTTON4,511,85,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_UEYESIMPLETRIGGER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 586
+        VERTGUIDE, 378
+        VERTGUIDE, 388
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 476
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 德语(德国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\uEyeSimpleTrigger.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_IDS_LOGO            BITMAP                  "res\\IDS_LOGO.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\uEyeSimpleTrigger.ico"
+#endif    // 德语(德国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,82,0,0
+ PRODUCTVERSION 4,82,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Small sample programm showing how to use the trigger mode"
+            VALUE "CompanyName", "IDS Imaging Development Systems GmbH"
+            VALUE "FileDescription", "uEyeSimpleTrigger"
+            VALUE "FileVersion", "4.82.0.0"
+            VALUE "InternalName", "uEyeSimpleTrigger"
+            VALUE "LegalCopyright", "Copyright ?2004 - 2017"
+            VALUE "LegalTrademarks", "uEye"
+            VALUE "OriginalFilename", "uEyeSimpleTrigger.exe"
+            VALUE "ProductName", "uEyeSimpleTrigger"
+            VALUE "ProductVersion", "4.82.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About uEyeSimpleTrigger..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\uEyeSimpleTrigger.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
