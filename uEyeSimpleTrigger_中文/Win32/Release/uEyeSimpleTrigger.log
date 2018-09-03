@@ -1,0 +1,36 @@
+﻿  StdAfx.cpp
+D:\VS2013_RTM_ULT_CHS\vs\VC\atlmfc\include\afx.h(37): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\atlmfc\include\afx.h(32) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  uEyeSimpleTrigger.cpp
+uEyeSimpleTrigger.cpp(2): warning C4653: 编译器选项“优化(一个或多个 /Oawstgp[y])或调试检查(一个或多个 /GZ、/RTCcsu)”与预编译头不一致；忽略当前命令行选项
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  uEyeSimpleTriggerDlg.cpp
+uEyeSimpleTriggerDlg.cpp(29): warning C4653: 编译器选项“优化(一个或多个 /Oawstgp[y])或调试检查(一个或多个 /GZ、/RTCcsu)”与预编译头不一致；忽略当前命令行选项
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+uEyeSimpleTriggerDlg.cpp(817): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(356) : 参见“sprintf”的声明
+uEyeSimpleTriggerDlg.cpp(1133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(356) : 参见“sprintf”的声明
+  正在生成代码...
+uEyeSimpleTrigger.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+uEyeSimpleTrigger.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: class cv::String & __thiscall cv::String::operator=(class cv::String const &)" (??4String@cv@@QAEAAV01@ABV01@@Z) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+uEyeSimpleTrigger.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+uEyeSimpleTriggerDlg.obj : error LNK2019: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)，该符号在函数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z)，该符号在函数 "public: __thiscall cv::Mat::Mat(int,int,int,void *,unsigned int)" (??0Mat@cv@@QAE@HHHPAXI@Z) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)，该符号在函数 "public: class cv::Mat __thiscall cv::Mat::clone(void)const " (?clone@Mat@cv@@QBE?AV12@XZ) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl cv::imwrite(class cv::String const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABVString@1@ABV_InputArray@1@ABV?$vector@HV?$allocator@H@std@@@std@@@Z)，该符号在函数 "public: void __thiscall CuEyeSimpleTriggerDlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CuEyeSimpleTriggerDlg@@QAEXXZ) 中被引用
+uEyeSimpleTriggerDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CuEyeSimpleTriggerDlg::OnIpnFieldchangedIpaddress(struct tagNMHDR *,long *)" (?OnIpnFieldchangedIpaddress@CuEyeSimpleTriggerDlg@@QAEXPAUtagNMHDR@@PAJ@Z)
+Win32\Release\uEyeSimpleTrigger.exe : fatal error LNK1120: 8 个无法解析的外部命令
