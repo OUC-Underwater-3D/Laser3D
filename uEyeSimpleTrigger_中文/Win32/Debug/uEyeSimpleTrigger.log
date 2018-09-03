@@ -1,0 +1,61 @@
+﻿  uEyeSimpleTrigger.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+uEyeSimpleTrigger.cpp(36): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+          D:\VS2013\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+          D:\VS2013\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+          尝试匹配参数列表“(const char [17])”时
+  uEyeSimpleTriggerDlg.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+uEyeSimpleTriggerDlg.cpp(205): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(206): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(262): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [23]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(270): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(274): error C2664: “int atoi(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+          没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+uEyeSimpleTriggerDlg.cpp(283): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(290): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(299): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(300): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(308): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(309): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [7]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(314): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [25]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(321): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+          class“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+uEyeSimpleTriggerDlg.cpp(338): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [25]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(344): error C2664: “int send(SOCKET,const char *,int,int)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(359): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [24]”转换为“const wchar_t *”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(378): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(399): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [7]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(403): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(421): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [1]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+uEyeSimpleTriggerDlg.cpp(427): error C2664: “void CWnd::SetDlgItemTextW(int,LPCTSTR)”: 无法将参数 2 从“const char [1]”转换为“LPCTSTR”
+          与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  正在生成代码...

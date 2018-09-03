@@ -1,0 +1,24 @@
+﻿  StdAfx.cpp
+D:\VS2013_RTM_ULT_CHS\vs\VC\atlmfc\include\afx.h(37): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\atlmfc\include\afx.h(32) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  uEyeSimpleTrigger.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  uEyeSimpleTriggerDlg.cpp
+D:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(211) : 参见“fopen”的声明
+D:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+uEyeSimpleTriggerDlg.cpp(817): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(356) : 参见“sprintf”的声明
+uEyeSimpleTriggerDlg.cpp(1133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\VS2013_RTM_ULT_CHS\vs\VC\include\stdio.h(356) : 参见“sprintf”的声明
+  正在生成代码...
+uEyeSimpleTriggerDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl CuEyeSimpleTriggerDlg::OnIpnFieldchangedIpaddress(struct tagNMHDR *,__int64 *)" (?OnIpnFieldchangedIpaddress@CuEyeSimpleTriggerDlg@@QEAAXPEAUtagNMHDR@@PEA_J@Z)
+x64\Debug\uEyeSimpleTrigger.exe : fatal error LNK1120: 1 个无法解析的外部命令
