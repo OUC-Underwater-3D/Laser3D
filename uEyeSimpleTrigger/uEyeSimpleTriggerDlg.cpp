@@ -947,6 +947,9 @@ void CuEyeSimpleTriggerDlg::GetFrame(Mat &color_frame)
 	}
 	int line_step = 0;
 	is_GetImageMemPitch(m_hCam, &line_step);
+	// they just initialize the matrix header that points to the specified data, which means that no data is copied.
+	// This operation is very efficient and can be used to process external data using OpenCV functions.
+	// The external data is not automatically deallocated, so you should take care of it.
 	Mat img(m_nSizeY, m_nSizeX, CV_8UC3, m_pcImageMemory, line_step);
 	if (m_pcImageMemory)
 	{
